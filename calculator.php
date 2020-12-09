@@ -33,7 +33,7 @@ Rollbar::init(
     array(
         'access_token' => 'c08d662c8092476092fbf158685cf49e',
         'environment' => 'production',
-        'codeversion' => 'c08d662c8092476092fbf158685cf49e',
+        'code_version' => 'c08d662c8092476092fbf158685cf49e',
         'host'  => 'localhost',
         'root' => '/Users/ianflanagan/Workspace/Demos/PHPDemo'
     )
