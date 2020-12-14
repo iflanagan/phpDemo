@@ -30,11 +30,15 @@ use \Rollbar\Rollbar;
 use \Rollbar\Payload\Level;
 Rollbar::init(
     array(
-        'access_token' => 'c08d662c8092476092fbf158685cf49e',
+        'access_token' => '<yourToken>',
         'environment' => 'production',
-        'code_version' => 'c08d662c8092476092fbf158685cf49e',
+        'code_version' => '1.2',
         'host'  => 'localhost',
-        'root' => '/Users/ianflanagan/Workspace/Demos/PHPDemo'
+        'root' => '<yourprojectlocation>',
+        'person' => '1234',
+        'custom' => array (
+        	'ID' => '1234'
+        )
     )
 );
 
