@@ -42,3 +42,11 @@ NOTE: I used the php Server and the command to start the server locally is
 php -S localhost:8001
 
 bring up URL and go to http://localhost:8001/calculator.php
+
+for one of the inputs enter a letter for example
+
+input enter 1 
+input enter 's'
+click calculate and notice the error generated 
+
+
