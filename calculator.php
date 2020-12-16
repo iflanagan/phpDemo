@@ -76,6 +76,7 @@ Rollbar::log(Level::info(), 'Test info message');
 		
 		// Print error message to the browser
 		echo 'Numeric values are required';
+		throw new Exception("Error Processing Request", 1);	
 		
 		}
 		}
