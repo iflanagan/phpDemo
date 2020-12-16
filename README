@@ -40,3 +40,5 @@ Reload your web page
 NOTE: I used the php Server and the command to start the server locally is 
 
 php -S localhost:8001
+
+bring up URL and go to http://localhost:8001/calculator.php
